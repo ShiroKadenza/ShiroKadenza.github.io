@@ -1,0 +1,16 @@
+/_config.yml
+
+title: ShiroKadenza의 블로그
+subtitle: 초보의 웹사이트 만들기 Project
+description: ShiroKadenza의 이것저것 따라하기
+author: Akaichi
+~
+url: https://ShiroKadenza.github.io
+root: /
+permalink: :year/ :month/ :day/ :title/
+permalink_defaults:
+        ~
+#Deployment
+deploy:
+        type: git
+        repo: https://stunstunstun@github.com/holaxapps/holaxapps.github.io
